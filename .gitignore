@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Electron / Vite
+frontend/node_modules/
+frontend/out/
+frontend/dist/
+frontend/.vite/
+frontend/release/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Claude Code (local-only harness state)
+.claude/
+CLAUDE.md
+
+# Project-specific runtime state — keep local, not in repo
+backend/config.json
+backend/models/*.onnx
+backend/data/assets/images/*
+!backend/data/assets/images/.gitkeep
+
+# Build / packaging
+*.log
+*.tmp
