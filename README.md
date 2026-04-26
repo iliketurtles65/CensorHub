@@ -6,15 +6,28 @@
 
 # Censor — Real-Time Content Censorship Engine
 
-GPU-accelerated, low-latency desktop overlay that detects and censors
-NSFW regions in real time using ONNX inference and a transparent
-click-through overlay window. Backend is Python (FastAPI + PySide6 +
-onnxruntime-gpu); frontend is Electron + React + Three.js.
+GPU-accelerated, low-latency desktop overlay that detects and censors NSFW regions in real time 
+Choose from different censorship types
+Customize your censors with stroke, text, or image overlays
+
+# Grid — Wall Feature
+
+Wall feature allows users to open multiple directories of videos/images and have them in a wall
+Audio DSP effects can be added to enhance the experience. 
+Choose from different grids (puzzle/4x4 etc) or click individual squares to swap content
+
+# Hypno — Hypno Effects for Specified Directories of Content
+
+Hypno tab allows users to produce hypno spirals with varying effects
+Content, text, and audio effects can be added here 
+Users can click screen to change content being displayed
 
 ## Features
 
-- Real-time screen capture at 60 FPS (dxcam) with bounding-box detection
+- Real-time screen capture at 60 FPS  with bounding-box detection
 - Configurable censor styles: mosaic, blur, black box, pixelation, image overlay
+- Configurable content wall settings: choose amount of content displayed at once, audio effects, etc
+- Configurable hypno settings: finetune your ideal hypno spiral and text overlays to content you choose
 - Per-category targeting — image, text, and stroke layers each map to specific detection classes
 - Cyberpunk-themed UI with live config and three modes (Censor / Grid / Hypno)
 - WebSocket bridge between frontend and backend at `ws://127.0.0.1:9099/ws`
