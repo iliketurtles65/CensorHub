@@ -57,7 +57,7 @@ cd ..
 
 The detector uses a YOLO-class ONNX model (`640m.onnx`, ~99 MB).
 It is **not bundled** in the repo. Download it from
-`<SOURCE_URL_TBD>` and place it at:
+[![Download Model](https://img.shields.io/badge/Download-640m.onnx-blue?style=for-the-badge&logo=github)](https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx) and place it at:
 
 ```
 backend/models/640m.onnx
