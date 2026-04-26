@@ -1,3 +1,9 @@
+## Support this and future projects! ☕
+
+<a href="https://buymeacoffee.com/iliketurtles6565">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" />
+</a>
+
 # Censor — Real-Time Content Censorship Engine
 
 GPU-accelerated, low-latency desktop overlay that detects and censors
