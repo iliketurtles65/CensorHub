@@ -73,7 +73,7 @@ It is **not bundled** in the repo. Download it from
 [![Download Model](https://img.shields.io/badge/Download-640m.onnx-blue?style=for-the-badge&logo=github)](https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx) 
 or alternative repo link [NuDeNet Repository](https://github.com/notAI-tech/NudeNet)
 
-and place it at:
+create a models folder and place the onnx file at:
 
 ```
 backend/models/640m.onnx
